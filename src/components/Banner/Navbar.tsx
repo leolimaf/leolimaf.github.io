@@ -8,7 +8,7 @@ interface NavbarProps {
 export default function Navbar(props: NavbarProps) {
 
     return (
-        <nav className="flex justify-between py-8 mb-12">
+        <nav className="flex justify-between py-8 mb-8">
             <h1 className="text-xl italic">leolimaf</h1>
             <ul className="flex items-center">
                 <li>
