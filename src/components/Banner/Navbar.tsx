@@ -14,7 +14,8 @@ export default function Navbar(props: NavbarProps) {
                 <li>
                 <button
                     onClick={props.onHandleResumo}
-                    className={`bg-gradient-to-r from-cyan-500 to-teal-600 text-white px-4 py-2 rounded-md ml-8 flex items-center`}>
+                    className={`flex items-center bg-gradient-to-r from-cyan-500 to-teal-600 text-white px-4 py-2 
+                                rounded-md ml-8 hover:bg-gradient-to-l`}>
                     Resumo&nbsp;{props.isResumoAtivo ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </button>
                 </li>
