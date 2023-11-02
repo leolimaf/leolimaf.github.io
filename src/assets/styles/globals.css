@@ -59,16 +59,9 @@ html {
 #footer ul li a{
   transition: color 0.3s;
   -webkit-transition: color 0.3s;
+  color: #5f5e61;
 }
 
-#footer ul li .link-icon-linkedin:hover {
-  color: #0e76a8;
-}
-
-#footer ul li .link-icon-github:hover {
-  color: #000000;
-}
-
-#footer ul li .link-icon-instagram:hover {
-  color: #c13584;
+#footer ul li a:hover{
+  color: #ffffffbf;
 }

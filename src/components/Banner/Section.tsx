@@ -18,20 +18,20 @@ export default function Section(props: SectionProps) {
     return (
         <div>
             {props.isResumoAtivo ? (
-                <div className={`space-y-8 mx-auto max-w-screen-lg p-2 ${isActive ? 'animate-fade-in' : ''}`}>
+                <div className={`space-y-8 mx-auto max-w-screen-lg p-2 ${isActive ? 'animate-fade-in' : 'invisible'}`}>
                     <div className="space-y-2">
                         <h2 className="text-xl font-semibold">Sobre mim:</h2>
-                        <p>Sou um desenvolvedor de softwares determinado em criar soluções eficientes e seguras, aplicando as melhores práticas de desenvolvimento e acompanhando as tendências tecnológicas. Intrigado em entender como as aplicações funcionam, estou sempre trabalhando em vários projetos, ainda mais porque gosto de me desafiar e adquirir novos conhecimentos.</p>
+                        <p>Sou um desenvolvedor de softwares determinado em criar soluções eficientes e seguras, aplicando as melhores práticas de desenvolvimento e acompanhando as tendências tecnológicas. Intrigado em entender como as aplicações funcionam, estou sempre trabalhando em vários projetos, pois gosto de me desafiar e adquirir novos conhecimentos.</p>
                     </div>
                     <div className="space-y-2">
                         <h2 className="text-xl font-semibold">Interesses e Objetivos:</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p>Atualmente, estou me dedicando mais a aperfeiçoar meus conhecimentos no desenvolvimento de aplicações web, utilizando principalmente a linguagem de programação C# e a plataforma .NET. Também tenho buscado aprimorar meu aprendizado em bancos de dados, testes automatizados, arquiteturas baseadas em microsserviços e computação em nuvem.</p>
+                        <p>Tenho como perspectiva para o futuro me especializar na engenharia de softwares e continuar trabalhando de maneira ágil, para que assim eu possa me desenvolver profissionalmente, alcançando melhores resultados.</p>
                     </div>
                 </div>
             ) : (
-            <div className={`${isActive ? 'animate-fade-in active' : ''}`}>
-                <img src="https://avatars.githubusercontent.com/u/23489043?v=4" alt="Leonardo Lima - Perfil" className="mx-auto rounded-full w-[12rem] h-[12rem] border-2" />
+            <div className={`${isActive ? 'animate-fade-in' : 'invisible'}`}>
+                <img src="https://github.com/leolimaf.png" alt="Leonardo Lima - Perfil" className="mx-auto rounded-full w-[12rem] h-[12rem] border-2" />
                 <div className="text-center py-10">
                     <h2 className="text-4xl py-1 font-medium">Leonardo Lima</h2>
                     <h3 className="text-2xl py-1 font-thin">Desenvolvedor .NET</h3>
